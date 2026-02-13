@@ -1,0 +1,16 @@
+# 조건 연산자인 if ~ else 문은 파이썬의 유일한 삼항 연산자
+a = x if x > y else y
+print('c는 0입니다.' if c == 0 else 'c는 0이 아닙니다.')
+
+# range() 함수로 이터러블 객체 생성
+iterable 객체 : 반복할 수 있는 객체, list, str, tuple
+range(n) : 0 <= i < n
+range(a,b) : a <= i < b
+range(a, b, step) : a <= a+step, ... <b
+
+# 두 값 교환하기
+- 단일 대입문으로 a,b 값을 교환하는 방법 외에 임시용 변수 t를 이용
+(1) a값을 t에 저장, t = a
+(2) b값을 a에 대입, a = b
+(3) t에 저장한 처음 a값을 b에 대입, b = t
+
