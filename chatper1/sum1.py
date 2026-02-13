@@ -16,12 +16,12 @@ while i <= n:
 print(f'1부터 {n}까지 정수의 합은 {sum}입니다.')
 
 # for 문 버전
-sum = 0
+sum1 = 0
 for i in range(1, n+1): # in range(1, n+1) ####
-    sum+= i
-print(f'1부터 {n}까지 정수의 합은 {sum}입니다.')
+    sum1+= i
+print(f'1부터 {n}까지 정수의 합은 {sum1}입니다.')
 
 # 가우스 덧셈 : n * (n+1) / 2
-sum = 0 
-sum = n * (n+1) / 2
-print(sum)
+sum2 = 0
+sum2 = n * (n+1) / 2
+print(sum2)
